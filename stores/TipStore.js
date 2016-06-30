@@ -21,7 +21,7 @@ function calculateTotalAmount(){
 }
 
 function stringToDecimal(percentString){
-  let t = percentString.substring(0, -2);
+  let t = percentString.substring(0, -1);
   _data.tip_percent = parseFloat(t)/100;
 }
 
