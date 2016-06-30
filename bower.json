@@ -1,0 +1,28 @@
+{
+  "name": "russ",
+  "description": "AI calc for tipping",
+  "main": "Hmm",
+  "authors": [
+    "Anthony Kulis"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "calculator"
+  ],
+  "homepage": "https://github.com/anthonykulis/ai_tip_calculator",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-badge": "PolymerElements/paper-badge#^1.1.2",
+    "paper-button": "PolymerElements/paper-button#^1.0.12",
+    "paper-card": "PolymerElements/paper-card#^1.1.1",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.2.2",
+    "paper-dialog": "PolymerElements/paper-dialog#^1.0.4",
+    "paper-input": "PolymerElements/paper-input#^1.1.14"
+  }
+}
