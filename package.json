@@ -4,7 +4,9 @@
   "description": "AI calc for tipping",
   "main": "Hmm",
   "scripts": {
-    "test": "Not sure"
+    "test": "Not sure",
+    "start": "watchify -o js/bundle.js -v -d js/app.js",
+    "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js"
   },
   "repository": {
     "type": "git",
