@@ -38,8 +38,12 @@ let ScheduleStore = assign({}, EventEmitter.prototype, {
 
 });
 
+// This registers the events with an action.type.
 TipDispatcher.register(function(action){
   switch(action.type){
+
+    // when the event occurs, the store will manipulate the data into something useful
+    // its overkill, but i wanted you to have plenty of example.
     case TipConstants.CALCULATE_TIP:
       stringToDecimal(action.tip_percent);
       calculateTipAmount();
