@@ -1,0 +1,38 @@
+{
+  "name": "russ",
+  "version": "1.0.1",
+  "description": "AI calc for tipping",
+  "main": "Hmm",
+  "scripts": {
+    "test": "Not sure"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonykulis/ai_tip_calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Anthony Kulis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/anthonykulis/ai_tip_calculator/issues"
+  },
+  "homepage": "https://github.com/anthonykulis/ai_tip_calculator#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "object-assign": "^4.1.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "envify": "^3.4.1",
+    "jest-cli": "^13.0.0",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.6.4",
+    "watchify": "^3.7.0"
+  }
+}
